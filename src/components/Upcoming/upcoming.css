@@ -1,0 +1,29 @@
+.upcoming{
+    background: url('../../Assets/ucm_bg_shape.png');
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.upcoming .overlay{
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+    overflow: hidden;
+}
+.upcoming .overlay .row{
+    margin: 25px 0;
+}
+.upcoming .overlay span{
+    color:#e4d804;
+    text-transform: uppercase;
+    display: block;
+    font-size: 14px;
+    margin: 15px 0;
+}
+.upcoming .overlay h2{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 50px;
+    margin-bottom: 50px;
+}

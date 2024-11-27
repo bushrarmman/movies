@@ -1,0 +1,113 @@
+header{
+    background: url('../../Assets/banner_bg01.jpg');
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 0;
+    padding: 30px 0px;
+}
+header .row{
+    margin: 100px 0px;
+}
+/* .header-text{
+    margin-top: 70px;
+} */
+header h4{
+    color: #e4d804;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+header h2{
+    color: #fff;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+header h2 span{
+    color: #e4d804;
+}
+header ul{
+    margin: 30px 0px;
+    padding: 0;
+}
+header ul li{
+    display: inline-block;
+    margin-right: 20px;
+    color: #fff;
+    font-size: 14px;
+}
+header ul li span{
+    display: inline-block;
+    margin-right:10px ;
+}
+header ul li:first-child span{
+    text-transform: uppercase;
+}
+header ul li:first-child span:first-of-type ,
+header ul li:first-child span:last-of-type{
+font-size: 12px;
+width: 50px;
+height: 25px;
+line-height: 25px;
+text-align: center;
+border: 1px solid #fff;
+}
+header ul li:first-child span:first-of-type{
+    background-color: #fff;
+    color: #171e28;
+}
+header ul li:first-child span:last-of-type{
+background-color: transparent;
+color: #fff;
+}
+header ul li:nth-child(2) span::first-letter{
+    text-transform: uppercase;
+}
+header ul li:nth-child(3) i{
+color: #e4d804;
+margin-right: 6px;
+}
+header button{
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 40px;
+    margin:30px 0 ;
+    text-transform: uppercase;
+    font-size: 14px;
+    position: relative;
+    overflow: hidden;
+}
+header button i{
+    color: #e4d804;
+    margin-right: 10px;
+}
+header button::before{
+    position: absolute;
+    content: "";
+    background-color:#e4d804;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+}
+header button:hover::before{
+    width: 100%;
+    transition:.5s ease-in-out;
+    z-index: -1;
+}
+header button:hover ,
+header button:hover i{
+    color: #171e28;
+    z-index: 9999;
+    transition:.5s ease-in-out;
+}
+header button:hover{
+    border: 1px solid #e4d804;
+}

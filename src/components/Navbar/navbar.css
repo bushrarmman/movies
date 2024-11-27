@@ -1,0 +1,22 @@
+nav{
+    background-color: #504e4e;
+    width: 100%;
+    height: auto;
+    padding: 15px 0;
+    overflow: hidden;
+}
+nav .navbar-collapse a{
+    font-size: 17px;
+text-transform: capitalize;
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+nav .navbar-collapse a:hover{
+    color: #e4d804;
+}
+nav button.navbar-toggler{
+    background-color: #e4d804;
+    border: 1px solid #e4d804;
+    border-radius: 4px;
+}
